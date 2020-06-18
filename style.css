@@ -13,6 +13,10 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  color: #3498DB;
+}
+
 .form {
   width: 50%;
   position: relative;
@@ -22,7 +26,7 @@ body {
 .form input {
   width: 100%;
   height: 100%;
-  color: #2C3E50;
+  color: #566573;
   padding-top: 20px;
   border: none;
   outline: none;
@@ -50,7 +54,7 @@ body {
   bottom: -1px;
   width: 100%;
   height: 100%;
-  border-bottom: 3px solid #7D3C98;
+  border-bottom: 3px solid #3498DB;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
 }
@@ -59,7 +63,7 @@ body {
 .form input:valid + .label-name .content-name {
   transform: translateY(-150%);
   font-size: 14px;
-  color: #7D3C98;
+  color: #3498DB;
 }
 
 .form input:focus + .label-name::after,
